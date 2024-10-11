@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- SYLE SHEET -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awosome CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark mt-0 pt-3 pb-0">
+      <div class="container-fluid">
+        <div class="row w-100 d-flex justify-content-around align-items-start">
+          <!-- Left Column (Logo + Events link) -->
+          <div
+            class="col-4 col-md-4 d-flex align-items-start justify-content-start"
+          >
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-start" href="#">
+              <img src="/src/logo.png" alt="Logo" class="logo" />
+            </a>
+            <!-- Events link (Hidden on small screens) -->
+            <a
+              href="#"
+              class="text-white text-decoration-nonetext-white text-decoration-none ms-5 d-none d-md-flex"
+            >
+              Events
+            </a>
+          </div>
+
+          <!-- Middle Column (Form and Dropdowns) -->
+          <div class="col-4 col-md-5">
+            <div class="input-group d-none d-lg-flex">
+              <input
+                type="text"
+                class="form-control border-end border-0 border-dark border-2"
+                placeholder="Search Event"
+                aria-label="Text input with dropdown button"
+              />
+              <button
+                class="w-22 btn btn-light dropdown-toggle border-end border-0 border-dark border-2 d-flex justify-content-between align-items-center"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                City
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+              <button
+                class="w-22 btn btn-light dropdown-toggle d-flex justify-content-between align-items-center"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sport
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+
+              <!-- Search Button -->
+              <button class="btn btn-outline-success" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column (Login + Join Event button) -->
+          <div
+            class="col-4 col-md-3 d-flex align-items-center justify-content-around"
+          >
+            <a
+              href="#"
+              class="text-white text-decoration-none d-none d-sm-flex"
+            >
+              Login
+            </a>
+
+            <!-- Button -->
+            <button
+              class="btn btn-outline-success text-white text-nowrap ms-0"
+              type="submit"
+            >
+              Join Event
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BANNER -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-12 p-0 d-flex justify-content-center align-items-center"
+        >
+          <div class="banner-text text-white">
+            <h1>Do you like martial Arts</h1>
+            <p>Share and practice with jutsu</p>
+          </div>
+          <img src="/src/banner.jpg" alt="" class="banner-img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards  -->
+    <div class="container">
+      <div class="row">
+        <!-- 111 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card5.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn card-btn btn btn-outline-success text-nowrap"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 22222 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card6.jpeg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3333 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card7.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4444 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card8.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 111 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card9.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 22222 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card10.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3333 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card3.jpeg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4444 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card4.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 111 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card5.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 22222 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card6.jpeg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3333 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card7.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4444 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card8.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 111 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card9.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 22222 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card10.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3333 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card3.jpeg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4444 -->
+        <div class="col-xl-3 col-6 mt-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/src/card4.jpg"
+              alt="Card image"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <p class="card-text">May 1 2024 9:30 AM</p>
+              <h4 class="card-title">Event Name</h4>
+              <div
+                class="btn-row d-flex justify-content-between text-align-center"
+              >
+                <h4>50$</h4>
+                <button
+                  class="card-btn btn btn-outline-success text-nowrap ms-0"
+                  type="submit"
+                >
+                  Join Event
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer BANNER -->
+
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-12 p-0 d-flex justify-content-center align-items-center"
+        >
+          <div class="footerBanner-text text-white">
+            <h1>Do you like martial Arts?</h1>
+            <p>Work with jutsu</p>
+
+            <button
+              class="footer-btn btn btn-success text-nowrap ms-0"
+              type="submit"
+            >
+              Register Now
+            </button>
+          </div>
+          <img
+            src="/src/footerBanner.jpg"
+            alt=""
+            class="footerBanner-img w-100"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div
+      class="container-fluid bg-dark text-white text-decoration-none mt-4 pt-4 pb-4"
+    >
+      <div class="row">
+        <div class="col-0 col col-sm-1"></div>
+
+        <div class="col-0 col-sm-2">
+          <!-- Logo -->
+          <a
+            class="d-flex flex-column align-items-center text-white text-decoration-none"
+            href="#"
+          >
+            <img src="/src/logo.png" alt="Logo" class="footerlogo" />
+            <h3>Jutsu</h3>
+          </a>
+        </div>
+        <div class="col-6 col-sm-2 d-flex flex-column mt-sm-0 mt-3">
+          <a href="# " class="text-white text-decoration-none">Your Account</a>
+          <a href="# " class="text-white text-decoration-none mt-3">Register</a>
+          <a href="# " class="text-white text-decoration-none mt-3">Login</a>
+        </div>
+        <div class="col-6 col-sm-2 d-flex flex-column mt-sm-0 mt-3">
+          <a href="# " class="text-white text-decoration-none">Discover</a>
+          <a href="# " class="text-white text-decoration-none mt-3">Blog</a>
+          <a href="# " class="text-white text-decoration-none mt-3">Services</a>
+        </div>
+        <div class="col-6 col-sm-2 d-flex flex-column mt-sm-0 mt-4">
+          <a href="# " class="text-white text-decoration-none">About Us</a>
+          <a href="# " class="text-white text-decoration-none mt-3"
+            >Contact Us</a
+          >
+        </div>
+        <div class="col-6 col-sm-2 mt-sm-0 mt-4">
+          <p class="d-flex justify-content-around">Follow Us</p>
+          <div class="d-flex justify-content-around">
+            <a href="# " class="text-white"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="# " class="text-white"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="# " class="text-white"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="# " class="text-white"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col col-sm-1"></div>
+      </div>
+    </div>
+
+    <!-- TOS LINES -->
+    <div class="container-fluid bg-fotter text-white">
+      <div class="row">
+        <div class="col-8">© 2024 Company Name</div>
+        <div class="col">Cookies</div>
+        <div class="col">Privacy Policy</div>
+        <div class="col">Terms of Services</div>
+      </div>
+    </div>
+
+    <!-- JS LIBRARIES BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

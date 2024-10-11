@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.w-22 {
+  width: 22% !important;
+}
+.logo {
+  margin-top: -30px;
+  width: 80px;
+  height: 80px;
+}
+.banner-img {
+  width: 100%;
+  height: 500px !important;
+  object-fit: cover;
+  filter: brightness(0.6);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+.banner-text {
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  text-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px !important;
+  background: linear-gradient(
+    180deg,
+    rgba(247, 13, 13, 0) 0%,
+    rgba(2, 53, 16, 0.9) 100%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    rgba(71, 71, 71, 0.52),
+    rgba(1, 27, 30, 0.73)
+  );
+}
+.banner-text h1 {
+  font-size: 50px !important;
+}
+.banner-text p {
+  font-size: 20px !important;
+}
+
+/* Cards CSS */
+
+.card {
+  height: 250px;
+}
+.card img {
+  min-height: 150px !important;
+
+  object-fit: cover;
+}
+
+.card-body p {
+  font-size: 15px;
+  margin-top: -13px;
+  margin-left: -10px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -19px;
+  margin-left: -10px;
+}
+
+.btn-row {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: -7px;
+  margin-left: -10px;
+}
+.btn-row h4 {
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.card-btn {
+  min-width: 60%;
+  height: 35px;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer Banner */
+
+.footerBanner-img {
+  max-width: 90%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-top: 30px;
+  border-radius: 15px;
+  filter: brightness(0.6);
+}
+.footerBanner-text {
+  position: absolute;
+  font-weight: 700;
+  margin-top: 20px;
+  z-index: 1;
+  text-wrap: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerBanner-text p {
+  font-weight: 400;
+}
+
+/* footer */
+
+.footerlogo {
+  width: 80px;
+}
+.bg-fotter {
+  background: black;
+}
+/* <!--===============Responsive Design=================--> */
+
+@media (max-width: 1200px) {
+  /* Your styles for max-width: 1200px here */
+}
+
+@media (max-width: 1024px) {
+  /* Your styles for max-width: 1024px here */
+}
+
+@media (max-width: 768px) {
+  /* Your styles for max-width: 768px here */
+}
+
+@media (max-width: 576px) {
+  /* Your styles for max-width: 576px here */
+}
+
+@media (max-width: 575px) {
+  /* Your styles for max-width: 575px here */
+
+  .banner-text h1 {
+    font-size: 40px !important;
+  }
+  .banner-text p {
+    font-size: 20px !important;
+    font-weight: 100;
+  }
+
+  /* Card css */
+
+  .card-btn {
+    max-width: 10%;
+    font-size: 15px;
+  }
+
+  .btn-row h4 {
+    font-size: 25px;
+    margin-left: 0px;
+    font-weight: 600;
+  }
+  .footerBanner-text {
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  /* Your styles for max-width: 400px here */
+
+  .banner-text h1 {
+    font-size: 36px !important;
+  }
+  .banner-text p {
+    font-size: 20px !important;
+    font-weight: 100;
+  }
+
+  /* Card css */
+
+  .card-btn {
+    max-width: 10%;
+    font-size: 12px;
+    height: 24px;
+    margin-top: 5px;
+    margin-left: 15px !important;
+  }
+
+  .card {
+    height: 260px;
+  }
+}
